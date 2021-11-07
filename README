@@ -31,6 +31,10 @@ Then clone the forked repo into a directory of the VM.
 - `sudo apt install libelf-dev`
 - `sudo apt install dwarves`
 
+```<pre><font color="#4E9A06"><b>rajat@ubuntu</b></font>:<font color="#3465A4"><b>~/.ssh</b></font>$ uname -a
+Linux ubuntu 5.11.0-38-generic #42~20.04.1-Ubuntu SMP Tue Sep 28 20:41:07 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+</pre>
+```
 Copy over the `/boot/config.X.Y.Z` file as `.config` file in the `linux` directory.
 In the .config file, find and comment out the line
 `CONFIG_SYSTEM_TRUSTED_KEYS="debian/canonical-certs.pem"`

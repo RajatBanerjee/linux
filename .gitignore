@@ -143,7 +143,6 @@ signing_key.x509
 x509.genkey
 
 # Kconfig presets
-/all.config
 /alldef.config
 /allmod.config
 /allno.config
